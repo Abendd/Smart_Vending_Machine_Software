@@ -36,7 +36,7 @@ def bal():
     but1.grid(row=1, column=1)
     window1.mainloop()
 def EAR(eye):
-    # distance between 2 set if vertical landmarks (x,y)-coordinates
+    # distance between 2 set of vertical landmarks (x,y)-coordinates
     A = dist.euclidean(eye[1], eye[5])
     B = dist.euclidean(eye[2], eye[4])
     # horizontal distance
@@ -64,7 +64,7 @@ def start():
     predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
 
-    # geting the landmarks of lef and right eye resp.
+    # getting the landmarks of left and right eye respectively.
     (lStart, lEnd) = face_utils.FACIAL_LANDMARKS_IDXS['left_eye']
     (rStart, rEnd) = face_utils.FACIAL_LANDMARKS_IDXS['right_eye']
 
