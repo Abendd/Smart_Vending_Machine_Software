@@ -51,7 +51,7 @@ def EAR(eye):
 def start():
 
     # defining 2 constants first as a Threshold EAR
-    # other for number of consecutive frames the eye must be beliow the threshold
+    # other for number of consecutive frames the eye must be below the threshold
     EAR_thresh = 0.1899
     EAR_consec_frames = 2
 
